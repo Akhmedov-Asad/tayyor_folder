@@ -1,0 +1,187 @@
+.carousel__section {
+    background: #F0F0F0;
+}
+
+.carousel {
+    padding: 10px 120px;
+}
+
+.review__block {
+    padding: 48px 200px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    border: 1px solid red;
+    color: black;
+}
+
+.review__top-block {
+    display: flex;
+    align-items: center;
+}
+
+.review__title span {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom: 8px;
+    margin-left: 40px;
+}
+
+.review__title p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    margin-left: 40px;
+}
+
+.review__img {
+    border-bottom: 3px solid red;
+}
+
+.Шурыгин {
+    display: none;
+}
+
+.review__bottom-block {
+    padding: 28px 18px 60px 40px;
+}
+
+.review__bottom-block p {
+    max-width: 750px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.review__top-block,
+.review__bottom-block {
+    background-color: #fff;
+}
+
+.review__top-subtitle {
+    padding: 80px 0 0 120px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+@media screen and (max-width:1270px) {
+    .carousel {
+        padding: 10px 40px;
+    }
+
+    .review__block {
+        padding: 48px 120px;
+    }
+}
+
+@media screen and (max-width:970px) {
+    .review__top-subtitle {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 150%;
+        color: #000000;
+        padding: 80px 0 0 100px;
+    }
+
+    .review__title span {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 150%;
+        color: #000000;
+
+    }
+
+    .review__title p {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 150%;
+        color: #000000;
+    }
+
+    .review__bottom-block {
+        padding: 28px 16px 87px 40px;
+    }
+}
+
+@media screen and (max-width:816px) {
+    .review__top-subtitle {
+
+        padding: 56px 0 0 48px;
+    }
+
+    .review__block {
+        padding: 32px 39px;
+    }
+}
+
+@media screen and (max-width:816px) {
+    .review__top-subtitle {
+        padding: 40px 0 0 24px;
+    }
+
+    .Шурыгин__1 {
+        display: none;
+    }
+
+    .Шурыгин {
+        display: inline-block;
+        font-weight: 400;
+        font-size: 12px;
+        color: #000000;
+    }
+
+    .review__title span {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 150%;
+        color: #000000;
+        margin-bottom: 8px;
+        margin-left: 10px;
+    }
+
+    .review__title p {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 150%;
+        color: #000000;
+        margin-left: 10px;
+    }
+
+    .crs__btn {
+        display: none;
+    }
+
+    .review__block {
+        padding: 0;
+    }
+
+    .carousel {
+        padding: 0;
+        margin: 0;
+    }
+
+    .carousel {
+        padding: 24px 24px;
+    }
+
+    .review__bottom-block {
+        padding: 28px 16px 78px 20px;
+    }
+
+    .carousel-indicators {
+        background-color:
+            red;
+    }
+}
+@media screen and (max-width: 816px){
+
+}

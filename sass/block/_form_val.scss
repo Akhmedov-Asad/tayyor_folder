@@ -1,0 +1,162 @@
+.form__container {
+    padding: 100px 120px 150px 120px;
+    width: 100%;
+    margin: 0;
+}
+
+.form__block {
+    display: flex;
+    align-items: center;
+}
+
+.form__right-block {
+    width: 100%;
+    background: #161A2B;
+    padding: 105px 68px 108px 68px;
+}
+
+.form__container h2 {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-bottom: 48px;
+}
+
+.registration {
+    content: '';
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../img/Background__image.png);
+    width: 100%;
+}
+
+.form__left-block {
+    max-width: 605px;
+
+}
+
+.anons__group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFf;
+    padding: 10px 40px;
+}
+
+.anons__group h3 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.anons__group p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.anons__title {
+    background: #F0F0F0;
+}
+
+.anons__title {
+    padding: 24px 16px 31px 40px;
+
+}
+
+.anons__title p {
+    margin-bottom: 32px;
+}
+
+.form-check-label {
+    font-weight: 400;
+    font-size: 14px;
+
+    color: #FFFFFF;
+}
+
+.form-label {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.form-control {
+    border: none;
+    background: #161A2B;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    ;
+}
+
+@media screen and (max-width: 1093px) {
+    .form__container {
+        padding: 116px 48px 116px 48px;
+    }
+
+    .form__container h2 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 130%;
+        color: #FFFFFF;
+        margin-bottom: 64px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .form__block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form__container {
+        padding: 40px 20px 40px 20px;
+    }
+
+    .nomer__free {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #FFFFFF;
+    }
+
+    .form__right-block {
+        width: 100%;
+        background: #161A2B;
+        padding: 24px 24px 40px 24px;
+    }
+
+    .form-check-label {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 130%;
+        color: #FFFFFF;
+    }
+
+    .anons__title {
+        display: none;
+
+    }
+
+    .anons__group p {
+        display: none;
+
+    }
+
+    .anons__group {
+        cursor: pointer;
+        margin-bottom: 50px;
+    }
+    .anons__title.actives {
+       display: inline-block;
+    }
+    .anons__group{
+        transition: 1s ease;
+    }
+}
+

@@ -1,0 +1,157 @@
+
+.option-header {
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+    color: #000000;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.option_box+.option_box {
+    margin-left: 78px;
+}
+
+.header-container {
+    padding: 12px 112px;
+    justify-content: space-between;
+}
+
+.navbar-nav2 {
+    display: flex;
+    align-items: center;
+}
+.contact_block.active{
+    transition: 3s ease;
+    width: 200px;
+    height: 200px;
+    background-color: silver;
+    z-index: 999;
+}
+.navbar-nav2.active{
+    z-index: 888;
+    position: fixed;
+    background: #fff;
+   width: 150px;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+   transition: .3s ease;
+}
+.contact_block.active > .contact{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+.option_box {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.box-header{
+    display: flex;
+    align-items: center;
+}
+.contact_block > .contact{
+  border: none;
+  padding-right: 8px;
+}
+.contact_block{
+  display: none;
+}
+.selects{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.navbar-brand2{
+    display: none;
+}
+@media only screen and (max-width: 970px) {
+    .option-header {
+        font-weight: 400;
+        font-size: 13px;
+    }
+    .option_box > img{
+        width: 24px;
+    }
+    .option_box+.option_box {
+        margin-left: 38px;
+    }
+    .navbar-brand > img{
+        width: 134px;
+        height: 36px;
+    }
+    .header-container {
+        padding: 22px 48px;
+        justify-content: space-between;
+    }
+}
+@media only screen and (max-width: 700px) {
+  .navbar-nav2{
+    display: none;
+  }
+  .contact_block{
+    display: inline-block;
+  }
+  .header-container {
+    padding: 8px 22px;
+}
+.navbar-brand{
+    display: none;
+}
+.navbar-brand2{
+    display: inline-block;
+}
+.contact_block> span{
+    font-weight: 400px;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: right;
+    color: #000000;
+}
+}
+.click{
+    display: none;
+    background: #FFFFFF;
+    box-shadow: 0 0 5px 0px;
+    padding: 10px;
+    position: absolute;
+    top: 50px;
+    left: 220px;
+   
+}
+.click.active{
+    z-index: 999;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 2px;
+    align-items: center;
+}
+.click span{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+.click__title{
+    font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+color: #000000;
+}
+
+

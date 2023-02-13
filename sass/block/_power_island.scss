@@ -1,0 +1,87 @@
+.island__container {
+    max-width: 100%;
+    padding: 80px 120px;
+    background: #F0F0F0;
+}
+
+.col__md {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.island__card-block {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: (2fr 2fr);
+}
+
+.island__container h3 {
+    margin-bottom: 48px;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 130%;
+
+    color: #000000;
+}
+
+@media screen and (max-width: 1120px) {
+    .island__container {
+        padding: 56px 48px 82px 48px;
+    }
+
+    .card-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #000000;
+    }
+
+    .card {
+        max-width: 448px;
+    }
+
+    .col__md {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .island__container {
+        padding: 56px 48px 82px 48px;
+    }
+
+}
+
+@media screen and (max-width: 860px) {
+    .island__container {
+        padding: 24px;
+    }
+
+
+}
+
+@media screen and (max-width:800px) {
+    .island__container {
+        padding: 40px 24px;
+    }
+
+    .island__card-block {
+        display: grid;
+        gap: 30px;
+        grid-template-columns: (1fr);
+    }
+}
